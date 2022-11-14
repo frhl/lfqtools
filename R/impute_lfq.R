@@ -18,7 +18,7 @@
 #' @family processing
 #' @export
 
-impute_by_col <- function(df, width = 0.3, shift = -1.8, seed = 4295, verbose = T){
+impute_lfq <- function(df, width = 0.3, shift = -1.8, seed = 4295, verbose = T){
   
   set.seed(seed)
   

@@ -26,10 +26,8 @@ RoxygenNote: 7.2.1
 Collate:
     'calc_logfc.R'
     'complete_missing.R'
-    'grep_ms_data.R'
-    'impute_by_col.R'
     'read_excel_sheets.R'
     'read_workbook.R'    
     'misc.R'
-    'normalize_by_col.R'
-    'normalize_intensities.R'
+    'norm_lfq.R'
+    'impute_lfq.R'

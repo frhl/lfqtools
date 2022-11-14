@@ -1,12 +1,14 @@
-#' @title Normalize data
+#' @title norm_lfq
 #' @description Normalize a table of label or label free data. 
 #' The function will calculate the \code{type} e.g. median of
 #' all numeric columns and subtract the median from the 
 #' intensity value.
+#' @param table a table with numeric columns
+#' @param type what function should be applied to columns
 #' @author flassen
 #' @export
 
-normalize_intensities <- function(table = NULL, type = 'median'){
+norm_lfq <- function(table = NULL, type = 'median'){
   
   columns_numeric <- sapply(table, is.numeric)
   table_numeric <- table[, columns_numeric]

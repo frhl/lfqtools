@@ -1,4 +1,4 @@
-#' @title Transform data
+#' @title calculate log fold changes
 #' @description Calculates log fold change by substracting
 #' a case column with a bait column. Assumes the data is
 #' already in log2 intensities.
