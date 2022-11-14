@@ -1,0 +1,35 @@
+Package: lfqtools
+Type: Package
+Title: lfqtools
+Version: 0.0.1
+Author: Frederik Lassen
+Maintainer: FL <flassen@well.ox.ac.uk>
+Description: scripts for processing DIA/DDA MS data 
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Depends:
+    R (>= 3.6),
+    ggplot2,
+    data.table,
+    reshape2,
+    readxl,
+    RColorBrewer,
+Suggests:
+    devtools,
+    writexl,
+    testthat (>= 2.1.0)
+Imports:
+    gplots,
+    cowplot
+RoxygenNote: 7.2.1
+Collate:
+    'calc_logfc.R'
+    'complete_missing.R'
+    'grep_ms_data.R'
+    'impute_by_col.R'
+    'read_excel_sheets.R'
+    'read_workbook.R'    
+    'misc.R'
+    'normalize_by_col.R'
+    'normalize_intensities.R'
