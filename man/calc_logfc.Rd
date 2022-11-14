@@ -2,7 +2,7 @@
 % Please edit documentation in R/calc_logfc.R
 \name{calc_logfc}
 \alias{calc_logfc}
-\title{Transform data}
+\title{calculate log fold changes}
 \usage{
 calc_logfc(df)
 }
@@ -19,8 +19,7 @@ assummes log2(bait1), log2(control1), log2(bait2)..
 }
 \seealso{
 Other processing: 
-\code{\link{grep_ms_data}()},
-\code{\link{impute_by_col}()}
+\code{\link{impute_lfq}()}
 }
 \author{
 flassen
